@@ -221,5 +221,5 @@ const moveEmployees = (fromId, whereId, arr = enterprises) => {
         }
       }
 }
-moveEmployees(2, 300);
-print(enterprises);
+//moveEmployees(2, 300);
+//print(enterprises);
