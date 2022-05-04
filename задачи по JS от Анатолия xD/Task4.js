@@ -74,7 +74,7 @@ const company = [
     ]
   }
 ]
-const printNode = (node, acc) => console.log(`${'--'.repeat(acc)} ${node.name} (${node.users_count})`);
+const printNode = (node, acc) => console.log(`${'--'.repeat(acc)}${acc > 0 ? ' ' : ''}${node.name} (${node.users_count})`);
 const printTree = (tree = company, acc = 0) => {
   tree.forEach(node => {
       printNode(node, acc);
